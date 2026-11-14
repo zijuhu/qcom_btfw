@@ -7341,6 +7341,14 @@ File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
+# Adreno ZAP shaders for HP
+File: qcom/x1e80100/hp/omnibook-x14/qcdxkmsuc8380.mbn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/qcdxkmsuc8380.mbn -> ../omnibook-x14/qcdxkmsuc8380.mbn
+File: qcom/x1p42100/hp/omnibook-x14/qcdxkmsucpurwa.mbn
+File: qcom/x1p42100/hp/elitebook-6-g1q/qcdxkmsucpurwa.mbn
+
+Licence: Redistributable. See LICENCE.HP and NOTICE.qcom for details
+
 # Adreno ZAP shaders for Lenovo
 File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
@@ -7712,6 +7720,86 @@ Version: CDSP.HT.2.9.c1-00046-HAMOA-1
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.dell
+
+# HP OmniBook X 14-fe0 and EliteBook Ultra G1q
+File: qcom/x1e80100/hp/omnibook-x14/adsp_dtbs.elf
+RawFile: qcom/x1e80100/hp/omnibook-x14/adspr.jsn
+RawFile: qcom/x1e80100/hp/omnibook-x14/adsps.jsn
+RawFile: qcom/x1e80100/hp/omnibook-x14/adspua.jsn
+RawFile: qcom/x1e80100/hp/omnibook-x14/battmgr.jsn
+File: qcom/x1e80100/hp/omnibook-x14/cdsp_dtbs.elf
+RawFile: qcom/x1e80100/hp/omnibook-x14/cdspr.jsn
+File: qcom/x1e80100/hp/omnibook-x14/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00826-HAMOA-1
+File: qcom/x1e80100/hp/omnibook-x14/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00078-HAMOA-1
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/adsp_dtbs.elf -> ../omnibook-x14/adsp_dtbs.elf
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/adspr.jsn -> ../omnibook-x14/adspr.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/adsps.jsn -> ../omnibook-x14/adsps.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/adspua.jsn -> ../omnibook-x14/adspua.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/battmgr.jsn -> ../omnibook-x14/battmgr.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/cdsp_dtbs.elf -> ../omnibook-x14/cdsp_dtbs.elf
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/cdspr.jsn -> ../omnibook-x14/cdspr.jsn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/qcadsp8380.mbn -> ../omnibook-x14/qcadsp8380.mbn
+Link: qcom/x1e80100/hp/elitebook-ultra-g1q/qccdsp8380.mbn -> ../omnibook-x14/qccdsp8380.mbn
+# HP OmniBook X 14-fe1
+File: qcom/x1p42100/hp/omnibook-x14/adsp_dtbs.elf
+RawFile: qcom/x1p42100/hp/omnibook-x14/adspr.jsn
+RawFile: qcom/x1p42100/hp/omnibook-x14/adsps.jsn
+RawFile: qcom/x1p42100/hp/omnibook-x14/adspua.jsn
+RawFile: qcom/x1p42100/hp/omnibook-x14/battmgr.jsn
+File: qcom/x1p42100/hp/omnibook-x14/cdsp_dtbs.elf
+RawFile: qcom/x1p42100/hp/omnibook-x14/cdspr.jsn
+File: qcom/x1p42100/hp/omnibook-x14/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00826-HAMOA-1
+File: qcom/x1p42100/hp/omnibook-x14/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00078-HAMOA-1
+# HP EliteBook 6 G1q
+File: qcom/x1p42100/hp/elitebook-6-g1q/adsp_dtbs.elf
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/adspr.jsn
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/adsps.jsn
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/adspua.jsn
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/battmgr.jsn
+File: qcom/x1p42100/hp/elitebook-6-g1q/cdsp_dtbs.elf
+RawFile: qcom/x1p42100/hp/elitebook-6-g1q/cdspr.jsn
+File: qcom/x1p42100/hp/elitebook-6-g1q/qcadsp8380.mbn
+Version: ADSP.HT.5.9-00838-HAMOA-1
+File: qcom/x1p42100/hp/elitebook-6-g1q/qccdsp8380.mbn
+Version: CDSP.HT.2.9.c1-00079-HAMOA-1
+# HP OmniBook X 16-cp1 and OmniBook Ultra 14-kg0xxx
+File: qcom/glymur/hp/omnibook-x16/adsp_dtbs.elf
+RawFile: qcom/glymur/hp/omnibook-x16/adspr.jsn
+RawFile: qcom/glymur/hp/omnibook-x16/adsps.jsn
+RawFile: qcom/glymur/hp/omnibook-x16/adspua.jsn
+File: qcom/glymur/hp/omnibook-x16/cdsp_dtbs.elf
+File: qcom/glymur/hp/omnibook-x16/qcadsp8480.mbn
+Version: LPAIDSP.HT.1.3-00464-GLYMUR-1
+File: qcom/glymur/hp/omnibook-x16/qccdsp8480.mbn
+Version: CDSP.HT.3.3-00304-GLYMUR-1
+Link: qcom/glymur/hp/omnibook-ultra-14-kg0xxx/qcadsp8480.mbn -> ../omnibook-x16/qcadsp8480.mbn
+Link: qcom/glymur/hp/omnibook-ultra-14-kg0xxx/adsp_dtbs.elf -> ../omnibook-x16/adsp_dtbs.elf
+Link: qcom/glymur/hp/omnibook-ultra-14-kg0xxx/qccdsp8480.mbn -> ../omnibook-x16/qccdsp8480.mbn
+Link: qcom/glymur/hp/omnibook-ultra-14-kg0xxx/cdsp_dtbs.elf -> ../omnibook-x16/cdsp_dtbs.elf
+Link: qcom/glymur/hp/omnibook-ultra-14-kg0xxx/adspr.jsn -> ../omnibook-x16/adspr.jsn
+Link: qcom/glymur/hp/omnibook-ultra-14-kg0xxx/adsps.jsn -> ../omnibook-x16/adsps.jsn
+Link: qcom/glymur/hp/omnibook-ultra-14-kg0xxx/adspua.jsn -> ../omnibook-x16/adspua.jsn
+# HP EliteBook X G2q
+File: qcom/glymur/hp/elitebook-x-g2q/adsp_dtbs.elf
+RawFile: qcom/glymur/hp/elitebook-x-g2q/adspr.jsn
+RawFile: qcom/glymur/hp/elitebook-x-g2q/adsps.jsn
+RawFile: qcom/glymur/hp/elitebook-x-g2q/adspua.jsn
+File: qcom/glymur/hp/elitebook-x-g2q/cdsp_dtbs.elf
+File: qcom/glymur/hp/elitebook-x-g2q/qcadsp8480.mbn
+Version: LPAIDSP.HT.1.3-00476.1-GLYMUR-1
+File: qcom/glymur/hp/elitebook-x-g2q/qccdsp8480.mbn
+Version: CDSP.HT.3.3-00319-GLYMUR-1
+File: qcom/glymur/hp/elitebook-x-g2q/soccp.mbn
+File: qcom/glymur/hp/elitebook-x-g2q/soccp_dtb.mbn
+Version: SOCCP.FW.2.1-00244.1-GLYMUR_SOCCP_PACK-1
+RawFile: qcom/glymur/hp/elitebook-x-g2q/soccpr.jsn
+
+Licence: Redistributable. See LICENCE.HP and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENCE.HP
 
 --------------------------------------------------------------------------
 
