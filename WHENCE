@@ -11646,6 +11646,11 @@ Link: intel/ish/ish_lnlm_53c4ffad_ebb27e41.bin -> ../../LENOVO/ish/ish_lnlm_leno
 Info: product_family - "ThinkPad X1 Carbon Gen 13"
 Version: 5.8.4.7720
 
+File: LENOVO/ish/ish_ptl_lenovo_Yoga-9_2026_5.8.1.7779.bin
+Link: intel/ish/ish_ptl_53c4ffad_b560361b.bin -> ../../LENOVO/ish/ish_ptl_lenovo_Yoga-9_2026_5.8.1.7779.bin
+Info: product_family - "Yoga 9 2-in-1 14IPH11"
+Version: 5.8.1.7778
+
 License: Redistributable. See LICENCE.lenovo for details
 SPDX-License-Identifier: LicenseRef-LICENCE.lenovo
 
