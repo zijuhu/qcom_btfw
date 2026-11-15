@@ -11653,6 +11653,12 @@ File: HP/ish/ish_lnlm_12128606_f9751b71.bin
 Link: intel/ish/ish_lnlm_12128606_f9751b71.bin -> ../../HP/ish/ish_lnlm_12128606_f9751b71.bin
 Version: 5.8.200.7720_1029
 
+File: HP/ish/ish_lnlm_12128606_5.8.0.7729.bin
+Info: sys_vendor 12128606="HP"
+Link: intel/ish/ish_lnlm_12128606_cf5da58b.bin -> ../../HP/ish/ish_lnlm_12128606_5.8.0.7729.bin
+Info: product_name cf5da58b="HP OmniBook Ultra Flip Laptop 14-fh0xxx"
+Version: 5.8.0.7729
+
 File: HP/ish/ish_ptl_12128606_581.7779.0.bin
 Version: 5.8.1.7779
 
