@@ -7329,6 +7329,7 @@ File: qcom/hawi/gen81100_zap.mbn
 Version: v0.05
 Link: qcom/gen81400_gmu.bin -> gen81100_gmu.bin
 Link: qcom/maili/gen81400_zap.mbn -> ../hawi/gen81100_zap.mbn
+File: qcom/sc8280xp/qcdxkmsuc8280.mbn
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.qcom
@@ -7481,6 +7482,12 @@ File: qcom/sm8250/Thundercomm/RB5/slpi.mbn
 Version: SLPI.HY.3.1-00049-SM8250AZL-2
 RawFile: qcom/sm8250/Thundercomm/RB5/slpir.jsn
 RawFile: qcom/sm8250/Thundercomm/RB5/slpius.jsn
+
+# qcom/sc8280xp
+File: qcom/sc8280xp/qcadsp8280.mbn
+Version: ADSP.HT.5.6.c2-00037-MAKENA-1
+File: qcom/sc8280xp/qccdsp8280.mbn
+Version: CDSP.HT.2.6-00735.5-MAKENA-1
 
 # Lenovo X13s
 RawFile: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
